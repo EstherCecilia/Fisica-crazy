@@ -31,7 +31,7 @@ function loadImage1(path) {
     return img;
 
 }
-var bubble = loadImage1('http://clipart.coolclips.com/480/vectors/tf05218/CoolClips_vc026016.png');
+var bubble = loadImage1('http://static3.depositphotos.com/1000434/105/i/950/depositphotos_1058613-stock-photo-3d-puppet-pushing-earth.jpg');
 function instantiateBubble1() {
     var newBubble = bubble.cloneNode();
     newBubble.style.bottom= '0px';
