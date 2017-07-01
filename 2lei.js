@@ -31,7 +31,7 @@ function loadImage1(path) {
     return img;
 
 }
-var bubble = loadImage1('http://static3.depositphotos.com/1000434/105/i/950/depositphotos_1058613-stock-photo-3d-puppet-pushing-earth.jpg');
+var bubble = loadImage1('https://cdn.pixabay.com/photo/2013/07/12/15/36/support-150174_960_720.png');
 function instantiateBubble1() {
     var newBubble = bubble.cloneNode();
     newBubble.style.bottom= '0px';
