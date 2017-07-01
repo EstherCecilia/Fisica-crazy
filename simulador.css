@@ -1,0 +1,25 @@
+iframe{
+  width: 800px;
+  height: 600px;
+}
+
+p{
+  text-align: center;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+    background-color: #74cec5;
+    margin: 0;
+  }
+
+  h3{
+    padding-top: 10px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }

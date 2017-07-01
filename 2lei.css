@@ -1,0 +1,125 @@
+@@import "Patrick Hand SC";
+@@import "Indie Flower";
+
+html, body {
+  height: 100%;
+}
+
+body{
+    background-color: #74cec5;
+    margin: 0;
+    position: relative;
+}
+
+
+
+main{
+  padding-left: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+
+article h2{
+  font-family: font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #e800e8;
+}
+}
+
+#information{
+  text-align: left;
+  background-color: white;
+  color: white;
+}
+
+.conteudo{
+  font-family: 'Patrick Hand SC', cursive;
+  text-align: left;
+  font-size: 25px;
+  color: #fdf1ff;
+}
+
+#formula{
+  color: hotpink;
+  border-width: 10px;
+  background-color: white;
+  font-size: 25px;
+  border: 1px solid pink;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+#botao{
+  background-color: #fdf1ff;
+  color: black;
+}
+
+section img{
+  width: 15px;
+}
+
+
+#lovefisica{
+  width: 150px;
+}
+
+.class{
+  text-align: right;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  box-shadow: 3px 3px 5px #555;
+}
+
+#bonus1{
+    color: black;
+    background-color: #f8cef7;
+    font-family: serif;
+    border-right: right;
+    float: right;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 25px;
+    text-align: center;
+    border: 1px solid #ff56fb;
+}
+
+#bonus2{
+    color: black;
+    background-color: #f8cef7;
+    font-family: serif;
+    border-right: right;
+    float: left;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid #ff56fb;
+}
+
+
+#bonus1 img{
+  width: 200px;
+}
+
+#bonus2 img{
+  width: 200px;
+}
+
+#coeficientes-da-equacao{
+  clear: left;
+}

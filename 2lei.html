@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2ª Lei de Newton</title>
+    <link rel="stylesheet" href="2lei.css">
+    <link rel="stylesheet" href="cabeçario.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Patrick+Hand+SC">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1454912293/Logo.png">
+  </head>
+  <body>
+      <header>
+        <h1>
+          <strike>Mais física, SOCORRO!</strike> <img src='https://media.giphy.com/media/l44QkVjrTiBgettq8/giphy.gif'>
+          </h1>
+        <h2>2ª lei de newton</h2>
+        <nav>
+        <ul>
+          <li><a href="index.html">Inicial</a></li>
+        <li><a href="1lei.html">1ª lei</a></li>
+        <li><a href="2lei.html">2ª lei</a></li>
+        <li><a href="3lei.html">3ª lei</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Leis_de_Newton">Biografia</a></li>
+        <li><a href="simulador.html">simulador</a></li>
+        <li><a href="game.html">game</a></li>
+        <li><a href="meme.html">memes</a></li>
+        <li><a href="creditos.html">créditos</a></li>
+        </ul>
+      </nav>
+
+      </header>
+    <main class="conteudo">
+      <article id="2lei">
+        <div id="information">
+        <h2>Princípio fundamental da dinâmica</h2>
+        <p>Quando aplicamos uma mesma força em dois corpos de massas diferentes observamos que elas não produzem aceleração igual.
+          A 2ª lei de Newton diz que a Força é sempre diretamente proporcional ao produto da aceleração de um corpo pela sua massa, ou seja:
+        </p>
+          <p id="formula">
+            F =  m . a
+            <img  id="lovefisica"src='https://s-media-cache-ak0.pinimg.com/736x/bc/1a/b0/bc1ab08f84c56c349e7f258cbb143bd4--vestibular-leis-de-newton.jpg' alt="Um meme do star wars sobre a força">
+        </p>
+        <div id="bonus2">
+          <h3>Força</h3>
+          <img src="http://www.criarmeme.com.br/meme/meme-36694--forca-parca.jpg" alt="Um bebê de cara feia, falando força parça">
+          <p>
+            Força é a causa que produz num corpo variação da velocidade, ou melhor, produz aceleração. E quando é dito “variação da velocidade”
+             também pode ser considerado o ato de apenas mover algo que antes estava parado.
+          </p>
+        </div>
+
+        <div id="bonus1">
+          <h3>Massa</h3>
+          <img src="http://geradormemes.com/media/created/153u92.jpg" alt="Newton criticando as pessoas, por acharem que massa é o mesmo que peso">
+          <p>
+            Basicamente, massa é uma grandeza escalar que indica a quantidade de matéria em um corpo. Essa quantidade de matéria é determinada através da comparação com um valor padrão da matéria (1 quilograma, 1 grama, etc.).
+            No Sistema Internacional de Unidades (SI), a unidade padrão da massa é o Kg (quilograma).
+          </p>
+        </div>
+
+        <p>O peso é a força de atração entre o corpo e o planeta e, como é uma força, podemos calculá-lo através da 2ª Lei de Newton.
+        </p>
+        <p>Como a aceleração envolvida é a gravidade, temos:
+          <span class="formula">P =  m . g </span>
+        </p>
+        <p>Coloque os valores de <span class="formula">m</span> (massa)
+          e <span class="formula">a</span> (aceleração / aceleracão da gravidade)
+          abaixo e clique no botão da força desejada!
+        </p>
+
+      <section id="coeficientes-da-equacao">
+        <label for="massa" class="forca">massa: </label>
+        <input id="massa" type="number" value="1">
+        <label for="aceleracao" class="forca">aceleração: </label>
+        <input id="aceleracao" type="number" value="1">
+        <button class="but" id='butF'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe1YJuXWX-w2Tt2sWnFNmSeFANiatPk44Dn8f3n6XNq35rOz0o'></button>
+        <button class="but" id='butP'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH7fWouc6QRwDDkzwRKHx2sA2OCSSgq9KYlSV8TbgFvR8l1Md5'></button>
+      </section>
+      <section id="resultado">
+        O resultado é:
+        <ul>
+          <li>
+            <span class="forca">F</span>: <input id="Newtinho" type="number" disabled>
+            <span class="forca">F = massa x aceleracão</span>
+          </li>
+          <li>
+            <span class="forca">P</span>: <input id="peso" type="number" disabled>
+            <span class="forca">P = massa x gravidade</span>
+          </li>
+
+        </ul>
+      </section>
+    </main>
+    <script src="2lei.js"></script>
+  </article>
+  </body>
+</html>

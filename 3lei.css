@@ -1,0 +1,80 @@
+body{
+  background-color: #74cec5;
+}
+main h1{
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Special Elite', cursive;
+}
+main p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Special Elite', cursive;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#bloco{
+  position: absolute;
+  margin-left: 1000px;
+  width: 200px;
+  animation-duration: 2s;
+  animation-name: move;
+  animation-iteration-count: infinite;
+}
+@keyframes move{
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 55%;
+  }
+}
+#goku{
+  height: 300px;
+  margin-left: 0px;
+  transform: rotateY(180deg);
+  position: absolute;
+}
+#luz{
+  margin-left: 200px;
+  height: 200px;
+  margin-top: 0px;
+  animation-duration: 2s;
+  animation-name: newton;
+  position: absolute;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes newton{
+  from {
+    margin-left: 10%;
+  }
+
+  to {
+    margin-left: 50%;
+  }
+}
+#foguete{
+  margin-bottom: 0%;
+  height: 200px;
+  margin-top: 0px;
+  bottom: 0%;
+  margin-left: 90%;
+  position: absolute;
+  animation-duration: 4s;
+  animation-name: fog;
+  animation-iteration-count: infinite;
+}
+@keyframes fog{
+  from {
+    margin-bottom:  0%;
+  }
+
+  to {
+    margin-bottom: 100%;
+  }
+}

@@ -1,0 +1,65 @@
+@@import "Indie Flower";
+
+html, body {
+  height: 100%;
+}
+
+body{
+    background-color: #74cec5;
+    margin: 0;
+}
+
+article p{
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#video{
+  text-align: center;
+  margin: auto;
+  width:500px;
+  height:300px;
+  font-size: 0.8em;
+}
+
+#video{
+  margin-left: 400px;
+}
+
+#link{
+	text-align: center;
+}
+
+span img{
+  width: 400px;
+  margin-left: 10px;
+  height: 300px;
+}
+
+#meme{
+  padding: 50px;
+}
+
+.mapa{
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+  margin-left: 50px;
+}
+
+#map{
+  padding-top: 40px;
+  margin-left: 380px;
+  padding-bottom: 20px;
+}
+
+#title{
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
