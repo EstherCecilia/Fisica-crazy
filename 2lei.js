@@ -31,7 +31,7 @@ function loadImage1(path) {
     return img;
 
 }
-var bubble = loadImage1('https://cdn.pixabay.com/photo/2013/07/12/15/36/support-150174_960_720.png');
+var bubble = loadImage1('http://clipart.coolclips.com/480/vectors/tf05218/CoolClips_vc026016.png');
 function instantiateBubble1() {
     var newBubble = bubble.cloneNode();
     newBubble.style.bottom= '0px';
